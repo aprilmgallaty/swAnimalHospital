@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#contact{
+	float: left;
+	padding-left: 180px;
+}
+
+.form-container {
+   border: 1px solid #146dcc;
+   background: #146dcc;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#5D91C9));
+   background: -webkit-linear-gradient(top, #ffffff, #5D91C9);
+   background: -moz-linear-gradient(top, #ffffff, #5D91C9);
+   background: -ms-linear-gradient(top, #ffffff, #5D91C9);
+   background: -o-linear-gradient(top, #ffffff, #5D91C9);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #5D91C9 100%);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:300px;
+   margin: 25px auto 0 auto;
+}
+.form-field, textarea {
+   border: 1px solid #90c0f4;
+   background: #d8e0e8;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #0d4780;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+}
+.form-field:focus, , textarea:focus {
+   background: #ffffff;
+   color: #050300;
+}
+.form-container h2 {
+   text-shadow: #a3c9f0 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+}
+.form-title {
+   margin-bottom:10px;
+   color: #0d4680;
+   text-shadow: #a3c9f0 0 1px 0;
+}
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+}
+.submit-button {
+   border: 1px solid #146dcc;
+   background: #8db9e6;
+   /*
+   background: -webkit-gradient(linear, left top, left bottom, from(#8db9e6), to(#4385CC));
+   background: -webkit-linear-gradient(top, #8db9e6, #4385CC);
+   background: -moz-linear-gradient(top, #8db9e6, #4385CC);
+   background: -ms-linear-gradient(top, #8db9e6, #4385CC);
+   background: -o-linear-gradient(top, #8db9e6, #4385CC);
+   background-image: -ms-linear-gradient(top, #8db9e6 0%, #4385CC 100%);
+   */
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #a3c9f0 0 1px 0;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+}
+.submit-button:hover {
+   border: 1px solid #146dcc;
+   text-shadow: #a3c9f0 0 1px 0;
+   background: #4385CC;
+   /*
+   background: -webkit-gradient(linear, left top, left bottom, from(#8db9e6), to(#4385CC));
+   background: -webkit-linear-gradient(top, #8db9e6, #4385CC);
+   background: -moz-linear-gradient(top, #8db9e6, #4385CC);
+   background: -ms-linear-gradient(top, #8db9e6, #4385CC);
+   background: -o-linear-gradient(top, #8db9e6, #4385CC);
+   background-image: -ms-linear-gradient(top, #8db9e6 0%, #4385CC 100%);
+   */
+   color: #fff;
+}
+.submit-button:active {
+   text-shadow: #a3c9f0 0 1px 0;
+   border: 1px solid #146dcc;
+   background: #8db9e6;
+   /*
+   background: -webkit-gradient(linear, left top, left bottom, from(#134a80), to(#134a80));
+   background: -webkit-linear-gradient(top, #134a80, #8db9e6);
+   background: -moz-linear-gradient(top, #134a80, #8db9e6);
+   background: -ms-linear-gradient(top, #134a80, #8db9e6);
+   background: -o-linear-gradient(top, #134a80, #8db9e6);
+   background-image: -ms-linear-gradient(top, #134a80 0%, #8db9e6 100%);
+   */
+   color: #fff;
+}
+
+.error, .result{
+	text-align: center;
+	width: 300px;
+	padding: 20px;
+}
+
+.error p, .result p{
+	line-height: 20px;
+	font-size: 16px;
+}
+  
+#locateSection{
+	float: left;
+	padding-left: 40px;
+}
+
+#locateHead{
+	margin: 25px 0 0 50px;
+}
+
+#map{
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#map p{
+	margin: 25px 0;
+}
+
+#mapMobile{
+	display: none;
+}

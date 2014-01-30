@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#doctorsMainSection{
+	height: 880px;
+}
+
+#doctors2MainSection{
+	height: 330px;
+}
+
+#burgessHeader{
+	padding: 25px 0 10px 50px;
+}
+
+#burgess1{
+	float: left;
+	margin-right: 25px;
+}
+
+#intro p{
+	margin: 5px 15px 0 10px;
+}
+
+#intro h2, #intro h3{
+	margin-bottom: 10px;
+}
+
+#intro h4{
+	margin: 0 15px 0 0;
+}
+
+#seeMore{
+	padding-top: 20px;
+}
+
+#listings{
+	margin-top: 25px;
+}
+
+#listings p{
+	padding-left: 50px;
+	padding: 5px 10px 3px 10px;
+	line-height: 22px;
+}
+
+/*tabs */
+#doctorsMainSection .ui-tabs-vertical {
+	width: 64em;
+}
+
+#doctorsMainSection .ui-tabs-vertical .ui-tabs-nav {
+	padding: .2em .1em .2em 50px;
+	float: left;
+	width: 12em;
+}
+
+#doctorsMainSection .ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	width: 100%;
+	border-bottom-width: 1px !important;
+	border-right-width: 0 !important;
+	margin: 0 -1px .2em 0;
+}
+
+#doctorsMainSection .ui-tabs-vertical .ui-tabs-nav li a {
+	display:block;
+}
+
+#doctorsMainSection .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	padding-bottom: 0;
+	padding-right: .1em;
+	border-right-width: 1px;
+	border-right-width: 1px;
+}
+
+#doctorsMainSection .ui-tabs-vertical .ui-tabs-panel {
+	float: right;
+	width: 46em;
+}
+
+#doctorsMainSection .ui-tabs-anchor {
+	outline: 0;
+}
+
+.ribbon-front a{
+	color: #f7f06c;
+}
+#doctorsMainSection .ui-tabs-vertical .ui-tabs-nav li a{
+	padding-bottom: 6px;
+}
+
+#tabs h3{
+	margin: 0 0 10px 50px;
+	text-decoration: underline;
+}
+
+#tabs ul li, #listings a{
+	font-weight: bold;
+}
+
+#tabs li a:hover, #listings a:hover{
+	color: #fff;
+	background-color: #072648;
+}
+
+#tabs .readBook{
+	text-decoration: underline;
+}
+

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+nav {display: none;}
+
+img{display: none;}
+
+#fb{display: none;}
+
+a{text-decoration: none;}
+
+footer{display: none;}
+
+.bold{display:none;}
+
+.ribbon-wrapper{display: none;}
+
+#print{display: none;}
+
+#webCoupon{display: none;}
+
+#coupon hgroup, #coupon p, #coupon h6 {display: none;}
+
+#logo h1{
+	font-family:"Helvetica, Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+}
+
+#logo h2{
+	font-family:"Helvetica, Trebuchet MS", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+}
+
+#logo h3{
+	font-family:"Helvetica, Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #000;
+}
+
+#printCoupon{
+	display: inherit;
+	width: 469px;
+	margin: 25px auto 0 auto;
+}

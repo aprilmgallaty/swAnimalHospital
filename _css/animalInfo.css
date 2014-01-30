@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#animalMainSection{
+	height: 100%;
+}
+
+/*animal nav*/
+#animalMainSection p{
+	line-height: 20px;
+	text-indent: 25px;
+	padding-bottom: 10px;
+	height: 100%
+}
+
+#animalMainSection dd{
+	line-height: 20px;
+	text-indent: 25px;
+	padding-bottom: 10px;
+}
+
+#animalMainSection .indent{
+	text-indent: 25px;	
+}
+
+.animalTabs h4, .animalTabs p{
+	margin: 0 25px 15px 0;
+}
+
+.animalTabs p{
+	margin: 0 50px 15px 50px;
+}
+
+.animalNav{
+	float: left;
+	padding-top: 15px;
+}
+
+#printAnimalInfo{
+}
+
+#animalList{
+	width: 950px;
+	margin: 25px auto;
+	text-align: center;
+}
+
+#animalList ul li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 3px;
+    border-right: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+#animalList a{
+    outline: none;
+    text-decoration: none;
+    color: #000;
+    padding:0 3px;
+}
+
+#animalList a:link{
+	color: #000;
+}
+
+#animalList a:hover{
+	color: #000;
+	background-color: #A2B7CD;
+}
+
+#animalList ul{
+	list-style-type: none;
+}
+
+#animalList #lastItem{
+	border-right: none;
+}
+
+/* general */
+
+.animalTitle{
+	width: 270px;
+	margin: 25px 0 0 50px;
+}
+.animalPic{
+	margin: 15px 25px 0 50px;
+	float: left;
+}
+
+#animalListings{
+	float: left;
+	margin: 15px 0 0 50px;
+}
+
+#animalMainSection .ui-tabs-vertical {
+	width: 64em;
+}
+
+#animalMainSection .ui-tabs-vertical .ui-tabs-nav {
+	padding: .2em .1em .2em 0;
+	width: 12em;
+}
+
+#animalMainSection .ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	width: 100%;
+	border-bottom-width: 1px !important;
+	border-right-width: 0 !important;
+	margin: 0 -1px .2em 0;
+}
+
+#animalMainSection .ui-tabs-vertical .ui-tabs-nav li a {
+	display:block;
+}
+
+#animalMainSection .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	padding-bottom: 0;
+	padding-right: .1em;
+	border-right-width: 1px;
+	border-right-width: 1px;
+}
+
+#animalMainSection .ui-tabs-vertical .ui-tabs-panel {
+	float: right;
+	width: 46em;
+}
+
+#animalMainSection .ui-tabs-anchor {
+	outline: 0;
+}
+.animalListings{
+	float: left;
+	margin: 15px 0 0 50px;
+	line-height: 22px;
+}
+
+.animalListings ul li{
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.rabbitFeeding{
+	text-indent: 50px;
+	margin-bottom: 10px;
+}
+
+/*table*/
+.veggieTable h3{
+	text-align: center;
+}
+
+.veggieTable {
+	margin:0 auto 25px auto;
+	padding:0px;
+	width:75%;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.veggieTable table{
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.veggieTable tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.veggieTable table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.veggieTable table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.veggieTable tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.veggieTable tr:hover td{
+	
+}
+.veggieTable tr:nth-child(odd){ background-color:#aad4ff; }
+.veggieTable tr:nth-child(even)    { background-color:#ffffff; }.veggieTable td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:14px;
+	font-weight:normal;
+	color:#000000;
+}.veggieTable tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.veggieTable tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.veggieTable tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.veggieTable tr:first-child td{
+		background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	background: -o-linear-gradient(top,#005fbf,003f7f);
+
+	background-color:#005fbf;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:16px;
+	font-weight:bold;
+	color:#ffffff;
+}
+.veggieTable tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	background: -o-linear-gradient(top,#005fbf,003f7f);
+
+	background-color:#005fbf;
+}
+.veggieTable tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.veggieTable tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+.printer{
+	padding-left: 10px;
+}

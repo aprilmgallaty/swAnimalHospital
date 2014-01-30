@@ -1,0 +1,575 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* global */
+
+body{
+    background-image: none;
+	background-color: #D4E9FC;
+}
+
+h1{
+   font-size: 36px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+p{
+   font-size: 16px;
+}
+
+li{
+    font-size: 16px; 
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+h5{
+    font-size: 12px;
+}
+
+h6{
+    font-size: 10px;
+}
+
+dd{
+    font-size: 16px;
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.highlight{
+    	color: #d81417;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.hr{
+	margin: 10px auto 10px auto;
+	background-image:none;
+	width: 90%;
+	border-bottom: solid 1px #999;
+}
+
+
+/* ribbon style */
+
+ .ribbon-wrapper {
+	position: static;
+	border-top: 1px solid #999;
+	width: 90%;
+	margin: 0 auto;
+}
+
+  .ribbon-front {
+	position: static;
+	background-color: transparent;
+	z-index: auto;
+	width: 100%;
+	left:0;
+	text-align: center;
+	padding-top: 5px;
+}
+
+  .ribbon-front,
+  .ribbon-back-left,
+  .ribbon-back-right
+{
+	-moz-box-shadow: 0px 0px 0px rgba(0,0,0,0.55);
+	-khtml-box-shadow: 0px 0px 0px rgba(0,0,0,0.55);
+	-webkit-box-shadow: 0px 0px 0px rgba(0,0,0,0.55);
+	-o-box-shadow: 0px 0px 0px rgba(0,0,0,0.55);
+}
+
+  .ribbon-edge-topleft,
+  .ribbon-edge-topright,
+  .ribbon-edge-bottomleft,
+  .ribbon-edge-bottomright,
+  .ribbon-back-left,
+  .ribbon-back-right {
+  display: none;
+}
+
+.ribbon-front h2{
+	color: #000;
+	padding: 0;
+}
+
+/* header */
+
+header {
+    width:100%;
+}
+
+#logo {
+    padding:0;
+	text-align: center;
+	height:auto;
+}
+
+#logoImg {
+    float:none;
+}
+
+header h1 {
+    float:none;
+    margin:0;
+}
+
+header h2 {
+    float:none;
+    margin:0;
+}
+
+header h3 {
+    float:none;
+    margin:5px 0;
+}
+
+#fb {
+    display: none;
+}
+
+#navBorder {
+    width:100%;
+    padding:0;
+}
+
+nav {
+    padding:0;
+}
+
+nav ul li {
+    display:block;
+    padding-right:0;
+    font-size:16px;
+	width:90%;
+	margin:5px auto;
+	background-color:#072749;
+	color:#fff;
+	padding:5px 0;
+	text-align: center;
+}
+
+nav a {
+	display: block;
+	color:#fff;
+	padding:0;
+	width:100%;
+}
+
+nav a:link {
+    color:#fff;
+}
+
+nav a:hover {
+    color:#fff;
+    background-color:#072749;
+}
+
+.screenAddy{
+	display: none;
+}
+
+.mobileAddy{
+    display: block;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: static;
+}
+
+#foot1{
+    float: none;
+    padding: 10px 0 0 0;
+	text-align: center;
+}
+
+#foot2{
+    float: none;
+    padding: 10px 0 0 0;
+	text-align: center;
+}
+
+#foot2b{
+    float: none;
+    padding: 10px 0 0 0;
+	text-align: center;
+}
+
+#foot3{
+    float: none;
+    padding: 10px 0 0 0;
+	text-align: center;
+}
+
+#designedBy{
+    float: none;
+}
+
+/* home page */
+
+#indexMainSection{
+	width: 100%;
+}
+
+#vetSource{
+	width: 125px;
+	margin: 0 auto 25px auto;
+	float: none;
+}
+
+#mission{
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+	padding: 0;
+
+}
+
+#mission h3{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#mission p{
+	text-align: justify;
+	line-height: 20px;
+}
+
+#careCredit{
+	width: 180px;
+	float: none;
+	margin: 25px auto 0 auto;
+}
+
+#careCredit h3{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#clinicHours{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.day{
+	width: 50%;
+	float: left;
+	margin-top: 10px;
+}
+
+.gallery{
+	display: none;
+}
+
+#miscInfo{
+	width: 90%;
+    margin: 0 auto;
+}
+
+#miscInfo p{
+	text-align: justify;
+}
+
+#couponLink{
+    margin: 0 auto;
+	width: 90%;
+}
+
+#miscInfo p.divider {
+	text-align: center;
+}
+
+/* coupon */
+
+#coupon{
+	margin: 10px auto;
+}
+
+#print{
+	display: none;
+}
+
+/* doctors */
+
+.ribbon-front a{
+	color: #065dae;
+}
+
+#doctorsMainSection{
+	height: auto;
+	width: 100%;
+}
+
+#doctors2MainSection{
+	height: auto;
+}
+
+#burgessHeader{
+	padding: 0;
+}
+
+#burgess1{
+	float: none;
+	margin: 10px 0;
+	text-align: center;
+}
+
+#intro{
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+#intro hgroup, #intro h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#intro li{
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+#seeMore{
+	display: none;
+}
+
+#listings{
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+#listings h2{
+	text-align: center;
+	margin-top: 10px;
+}
+
+#listings p{
+	font-size: 14px;
+	line-height: 14px;
+	padding: 0;
+	margin-top: 10px;
+	text-indent: 10px;
+}
+
+#doctorsMainSection #tabs h3{
+	display: none;
+}
+
+#doctorsMainSection #tabs ul{
+	display: none;
+}
+
+/* clinic info */
+
+#apptConsultPriceMain{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#appointments li, #consults li, #pricing li{
+	text-indent: 10px;
+	line-height: 22px;
+}
+
+#apptConsultPriceMain .important{
+	text-align: left;
+}
+
+/* locate */
+
+#map{
+	width: 280px;
+}
+
+#mapMobile{
+	display: block;
+}
+
+#mapNormal{
+	display: none;
+}
+
+/* animal info */
+
+#animalMainSection{
+	height: auto;
+}
+
+#animalList{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#animalList ul li{
+	width: 90%;
+	background-color: #A2B7CD;
+	color: #fff;
+    border-right: none;
+}
+
+#animalList ul li a, 
+#animalList ul li a:hover, 
+#animalList ul li a:link, 
+#animalList ul li a:visited{
+	color: #fff;
+}
+
+.animalTitle{
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+.animalPic{
+	margin: 0;
+	float: none;
+	text-align: center;
+}
+
+.animalNav{
+	display: none;
+}
+
+#animalListings, #veggies{
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.animalTabs p{
+	margin: 0;
+}
+
+.animalTabs h4{
+	margin: 0;
+}
+
+#veggies h4{
+	text-align: justify;
+}
+
+.veggieTable h3{
+	text-align: center;
+}
+
+.veggieTable {
+	width:100%;
+}
+
+.veggieTable tr:first-child td{
+	font-size:12px;
+}
+
+#printer{
+	display: none;
+}
+
+/* shop */
+
+#mainSectionShop{
+    height: auto;
+}
+
+#shopping{
+	width: 90%;
+    margin: 0 auto;
+}
+
+#book1{
+    float: none;
+	margin: 0 auto 25px;
+}
+
+#book2{
+    float: none;
+	margin: 0 auto 25px;
+}
+
+.stickerForm{
+	width: 100%;
+	float: none;
+	margin: 0 0 25px 0;
+}
+
+.hrShop{
+	margin: 10px auto 10px auto;
+	background-image: none;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #999;
+}
+
+/* links */
+
+#links{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#links h2{
+	float: none;
+	margin: 0 0 20px 0;
+}
+
+#links p{
+	margin-bottom: 25px;
+}
+
+#links img{
+	display: none;
+}
+
+/* donate */
+
+#donateSection{
+	height: auto;
+}
+
+#donate{
+    margin: 0 auto;
+	width: 90%;
+}
+
+#donateSection form{
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+#donateButton{
+    float: none;
+}
+
+/* contact */
+
+.form-container{
+	min-width: 260px;
+	width: 260px;
+}
+
+.form-field, textarea {
+	width: 240px;
+}

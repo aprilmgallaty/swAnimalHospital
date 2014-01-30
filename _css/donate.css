@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#donateSection{
+	height: 200px;
+}
+
+#donate{
+    margin: 25px 15px 0 50px;
+}
+
+#donate li{
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 10px 20px 0 0;
+    text-indent: 20px;
+}
+
+.secondList li{
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: 20px;
+}
+
+#donateSection form{
+	margin-left: 407px;
+}
+

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#apptSection{
+	height: auto;
+}
+
+#apptConsultPriceMain{
+	margin: 25px 15px 0 50px;
+}
+
+#appointments li, #consults li, #pricing li{
+	list-style-type: disc;
+	list-style-position: inside;
+	text-indent: 30px;
+	margin: 5px 0 0 0;
+}
+
+#appointments p, #consults p, #pricing p{
+	line-height: 22px;
+	margin-top: 5px;
+}
+
+#pricing{
+	margin-bottom: 25px;
+}

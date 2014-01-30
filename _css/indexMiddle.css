@@ -1,0 +1,210 @@
+
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+Copyright (c) 2010 Stu Nicholls - CSS play - all rights reserved.
+=================================================================== */
+
+.gallery {padding:0; margin:0; list-style:none; width:486px; height:558px; background:#f0f0e0; position:relative; margin:25px 25px 0 25px; padding:20px; border:1px solid #ddd; float: left;
+-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+-moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+-o-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+*background:#f0f0e0 url(close.gif) no-repeat 493px 5px; /* for IE7 and lower */
+float: left;
+}
+.gallery li {float:left; margin:15px; width:132px; height:156px; display:inline;}
+.gallery img.close {display:block; position:absolute; left:-9999px; top:64px; z-index:500; opacity:0; z-index:-1;
+-webkit-transition: opacity 0.5s ease-in-out;
+-moz-transition: opacity 0.5s ease-in-out;
+-o-transition: opacity 0.5s ease-in-out;
+transition: opacity 0.5s ease-in-out;
+-webkit-transition-delay: 0.8s;
+-moz-transition-delay: 0.8s;
+-o-transition-delay: 0.8s;
+transition-delay: 0.8s;
+}
+.gallery li.close {margin:0; width:28px; height:28px; position:absolute; left:493px; top:5px; *cursor:pointer; /* for IE7 and lower */}
+.gallery li a {display:block; float:left; width:112px; height:126px; padding:9px 9px 19px 9px; margin:0; background:#fff; border:1px solid #e0e0e0; text-decoration:none; color:#000; position:absolute;
+-webkit-transition: all 0.8s ease-in-out;
+-moz-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
+}
+.gallery li a.left {
+-webkit-transform: rotate(-12deg);
+-moz-transform: rotate(-12deg);
+-o-transform: rotate(-12deg);
+transform: rotate(-12deg);
+}
+.gallery li a.right {
+-webkit-transform: rotate(12deg);
+-moz-transform: rotate(12deg);
+-o-transform: rotate(12deg);
+transform: rotate(12deg);
+}
+.gallery li a span {display:block; text-align:center; text-decoration:none; font:normal 5px/20px arial, sans-serif; color:#fff;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+.gallery li a.p1 {top:25px; left:35px;}
+.gallery li a.p2 {top:25px; left:205px;}
+.gallery li a.p3 {top:25px; left:357px;}
+.gallery li a.p4 {top:215px; left:35px;}
+.gallery li a.p5 {top:215px; left:205px;}
+.gallery li a.p6 {top:215px; left:357px;}
+.gallery li a.p7 {top:405px; left:35px;}
+.gallery li a.p8 {top:405px; left:205px;}
+.gallery li a.p9 {top:405px; left:357px;}
+
+.gallery li a img {display:block; width:100%; height:100%; border:0;}
+
+.gallery li a:hover {margin:-5px -4px ; width:120px; height:135px; text-decoration:none;
+-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+-moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+-o-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.gallery li a:active,
+.gallery li a:focus {margin:0; position:absolute; left:263px; margin-left:-185px; top:300px; margin-top:-215px; width:320px; height:360px; padding:25px 25px 50px 25px; opacity:1; z-index:100; outline:0;
+-webkit-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.7);
+-moz-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.7);
+-o-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.7);
+box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.7);
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+}
+.gallery li a:active + img {left:428px; opacity:1; z-index:500; cursor:pointer;}
+.gallery li a:focus + img {left:428px; opacity:1; z-index:500; cursor:pointer;}
+
+.gallery li a:active span,
+.gallery li a:focus span {color:#000; font-size:18px; padding-top:10px;}
+
+.galleryCopy{
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* my styles */
+
+#vetSource{
+	width: 125px;
+	margin:0 25px 0 25px;
+	float: left;
+}
+
+#mission{
+	width: 600px;
+	float: left;
+	padding-right: 25px;
+
+}
+
+#mission h3{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#mission p{
+	text-align: justify;
+	line-height: 20px;
+}
+
+#careCredit{
+	width: 180px;
+	float: left;
+}
+
+#careCredit h3{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#clinicHours{
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#clinicHours h3{
+    font-size: 16px;
+
+}
+
+#clinicHours h4{
+    font-size: 14px;
+}
+
+#clinicHours p{
+    font-size: 14px;
+	line-height: 20px;
+}
+
+#clinicHours h3, #lunchNotice{
+    text-align: center;
+}
+
+#lunchNotice{
+    font-size: 12px;
+    font-style:  italic;
+    margin-bottom: 15px;
+}
+
+.day{
+	width: 170px;
+	float: left;
+}
+
+.day h4{
+	text-align: center;
+}
+
+.frontPage a:hover{
+    color:#000;
+    background-color:#A2B7CD;
+}
+
+#miscInfo{
+    margin: 25px 25px 0 0;
+}
+
+#miscInfo p{
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+#couponLink{
+    margin: 25px 25px 0 0;
+}
+
+#couponLink p{
+    line-height: 20px;
+}
+
+#couponLink h3{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+#couponLinkHover:hover{
+    color:#000;
+    background-color:#A2B7CD;
+}
+
+.divider{
+	text-align: center;
+	font-size: 30px;
+}
+

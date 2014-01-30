@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#linksSection{
+	height: auto;
+}
+
+#links{
+	margin: 25px 0 0 50px;
+}
+
+#links h2{
+	float: left;
+	margin: 20px 0 0 15px;
+}
+
+#links p{
+	margin-bottom: 25px;
+}
+
+#links img{
+	float: left;
+	margin-bottom: 25px;
+}

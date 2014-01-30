@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainSectionShop{
+    height: 1570px;
+}
+
+#shopping{
+    margin: 25px 0 15px 50px;
+}
+
+}
+#mainSectionShop img{
+	border: none;
+}
+
+#mainSectionShop h2{
+	margin-bottom: 20px;
+}
+
+#book1{
+    float: left;
+    width: 269px;
+	text-align: center;
+	margin: 0 81px;
+}
+
+#book2{
+    float: left;
+    width: 298px;
+	text-align: center;
+	margin: 0 81px;
+}
+
+.stickerForm{
+	width: 250px;
+	text-align: center;
+	float: left;
+	margin: 0 30px 50px 30px;
+}
+
+.hrShop{
+	margin: 20px auto 0 auto;
+	background-image: url(../_img/01_main/horizontalRule960x27.png);
+	width: 960px;
+	height: 27px;
+}
+
+.itemPrice{
+    padding: 10px 0;
+}
